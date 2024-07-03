@@ -1,0 +1,267 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="../../../www.googletagmanager.com/gtag/js-id=UA-111713571-1.js" tppabs="https://www.googletagmanager.com/gtag/js?id=UA-111713571-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+  		gtag('config', 'UA-111713571-1');
+	</script>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="../../../maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" tppabs="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<!-- Custom styles for this template -->
+	<link href="files/jumbotron.css" tppabs="https://yunzhuli.github.io/www/V-CDN/files/jumbotron.css" rel="stylesheet">
+</head>
+
+<title>V-CDN</title>
+
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		<a class="navbar-brand" href="#">Causal Discovery in Physical Systems from Videos</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
+	  		<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarToggle">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Abstract">Abstract</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Paper">Paper</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Video">Video</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Model">Model</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Results">Results</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container" style="padding-top: 80px; font-size: 20px">
+		<div align="center">
+			<h2 class="text-center" align="center">
+				Causal Discovery in Physical Systems from Videos
+			</h2><br>
+
+			<a href="javascript:if(confirm(%27http://people.csail.mit.edu/liyunzhu/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://people.csail.mit.edu/liyunzhu/%27" tppabs="http://people.csail.mit.edu/liyunzhu/">Yunzhu Li</a> &nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="javascript:if(confirm(%27http://web.mit.edu/torralba/www/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://web.mit.edu/torralba/www/%27" tppabs="http://web.mit.edu/torralba/www/">Antonio Torralba</a> &nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="javascript:if(confirm(%27http://tensorlab.cms.caltech.edu/users/anima/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://tensorlab.cms.caltech.edu/users/anima/%27" tppabs="http://tensorlab.cms.caltech.edu/users/anima/">Animashree Anandkumar</a> &nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="javascript:if(confirm(%27https://homes.cs.washington.edu/~fox/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://homes.cs.washington.edu/~fox/%27" tppabs="https://homes.cs.washington.edu/~fox/">Dieter Fox</a> &nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="javascript:if(confirm(%27https://animesh.garg.tech/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://animesh.garg.tech/%27" tppabs="https://animesh.garg.tech/">Animesh Garg</a><br><br>
+		</div>
+	</div>
+
+	<div class="container">
+		<div align="center">
+			<a href="javascript:if(confirm(%27http://mit.edu/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://mit.edu/%27" tppabs="http://mit.edu/" style="text-decoration:none">
+			  <img class="img-responsive img-rounded" src="imgs/logos/mit.png" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/logos/mit.png" style="width:10%; height:100%" alt="">
+			</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="javascript:if(confirm(%27https://www.nvidia.com/en-us/research/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://www.nvidia.com/en-us/research/%27" tppabs="https://www.nvidia.com/en-us/research/" style="text-decoration:none">
+			  <img class="img-responsive img-rounded" src="imgs/logos/nvidia.png" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/logos/nvidia.png" style="width:9%; height:100%" alt="">
+			</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="javascript:if(confirm(%27https://www.utoronto.ca/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://www.utoronto.ca/%27" tppabs="https://www.utoronto.ca/" style="text-decoration:none">
+			  <img class="img-responsive img-rounded" src="imgs/logos/uoft.png" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/logos/uoft.png" style="width:16%; height:100%" alt="">
+			</a>
+			&nbsp;&nbsp;
+			<a href="javascript:if(confirm(%27https://www.caltech.edu/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://www.caltech.edu/%27" tppabs="https://www.caltech.edu/" style="text-decoration:none">
+			  <img class="img-responsive img-rounded" src="imgs/logos/caltech.png" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/logos/caltech.png" style="width:14%; height:100%" alt="">
+			</a>
+			&nbsp;&nbsp;
+			<a href="javascript:if(confirm(%27https://www.washington.edu/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://www.washington.edu/%27" tppabs="https://www.washington.edu/" style="text-decoration:none">
+			  <img class="img-responsive img-rounded" src="imgs/logos/uw.png" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/logos/uw.png" style="width:14%; height:100%" alt="">
+			</a>
+			<a href="javascript:if(confirm(%27https://vectorinstitute.ai/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://vectorinstitute.ai/%27" tppabs="https://vectorinstitute.ai/" style="text-decoration:none">
+			  <img class="img-responsive img-rounded" src="imgs/logos/vector.png" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/logos/vector.png" style="width:18%; height:100%" alt="">
+			</a>
+
+		</div>
+	</div><br><br>
+
+	<div class="container" style="padding-top: 20px; font-size: 20px">
+		<div align="center">
+		<div class="center">
+			<img class="img-responsive img-rounded" src="imgs/teaser.png" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/teaser.png" style="width:80%; height:100%" alt="">
+		</div>
+		</div>
+	</div><br><br>
+
+
+	<!-- Abstract -->
+	<div class="container">
+		<h3 id="Abstract" style="padding-top: 80px; margin-top: -80px;">Abstract</h3>
+	  Causal discovery is at the core of human cognition. It enables us to reason about the environment and make counterfactual predictions about unseen scenarios, that can vastly differ from our previous experiences. We consider the task of causal discovery from videos in an end-to-end fashion without supervision on the ground-truth graph structure. In particular, our goal is to discover the structural dependencies among environmental and object variables: inferring the type and strength of interactions that have a causal effect on the behavior of the dynamical system. Our model consists of (a) a perception module that extracts a semantically meaningful and temporally consistent keypoint representation from images, (b) an inference module for determining the graph distribution induced by the detected keypoints, and (c) a dynamics module that can predict the future by conditioning on the inferred graph. We assume access to different configurations and environmental conditions, i.e., data from unknown interventions on the underlying system; thus, we can hope to discover the correct underlying causal graph without explicit interventions. We evaluate our method in a planar multi-body interaction environment and scenarios involving fabrics of different shapes like shirts and pants. Experiments demonstrate that our model can correctly identify the interactions from a short sequence of images and make long-term future predictions. The causal structure assumed by the model also allows it to make counterfactual predictions and extrapolate to systems of unseen interaction graphs or graphs of various sizes.
+	</div><br><br>
+
+	<!-- Paper -->
+	<div class="container">
+		<h3 id="Paper" style="padding-top: 80px; margin-top: -80px;">Paper</h3>
+
+		<div class="row">
+			<div class="col-md-12">
+			<a href="javascript:if(confirm(%27http://people.csail.mit.edu/liyunzhu/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://people.csail.mit.edu/liyunzhu/%27" tppabs="http://people.csail.mit.edu/liyunzhu/">Yunzhu Li</a>,
+      <a href="javascript:if(confirm(%27http://web.mit.edu/torralba/www/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://web.mit.edu/torralba/www/%27" tppabs="http://web.mit.edu/torralba/www/">Antonio Torralba</a>,
+			<a href="javascript:if(confirm(%27http://tensorlab.cms.caltech.edu/users/anima/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://tensorlab.cms.caltech.edu/users/anima/%27" tppabs="http://tensorlab.cms.caltech.edu/users/anima/">Animashree Anandkumar</a>,
+			<a href="javascript:if(confirm(%27https://homes.cs.washington.edu/~fox/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://homes.cs.washington.edu/~fox/%27" tppabs="https://homes.cs.washington.edu/~fox/">Dieter Fox</a>, and
+			<a href="javascript:if(confirm(%27https://animesh.garg.tech/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://animesh.garg.tech/%27" tppabs="https://animesh.garg.tech/">Animesh Garg</a><br>
+
+			<b>Causal Discovery in Physical Systems from Videos</b><br>
+
+			<b><a href="javascript:if(confirm(%27https://nips.cc/Conferences/2020  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://nips.cc/Conferences/2020%27" tppabs="https://nips.cc/Conferences/2020" target="_blank">NeurIPS 2020</a></b>,
+
+			<a href="javascript:if(confirm(%27https://arxiv.org/abs/2007.00631  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://arxiv.org/abs/2007.00631%27" tppabs="https://arxiv.org/abs/2007.00631" target="_blank">[Paper]</a>
+			<a href="javascript:if(confirm(%27https://github.com/pairlab/v-cdn  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://github.com/pairlab/v-cdn%27" tppabs="https://github.com/pairlab/v-cdn" target="_blank">[Code]</a>
+			<a href="javascript:if(confirm(%27https://yunzhuli.github.io/www/V-CDN/poster.pdf  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://yunzhuli.github.io/www/V-CDN/poster.pdf%27" tppabs="https://yunzhuli.github.io/www/V-CDN/poster.pdf" target="_blank">[Poster]</a>
+			<a href="javascript:if(confirm(%27https://yunzhuli.github.io/www/V-CDN/V-CDN.bib  \n\nThis file was not retrieved by Teleport Ultra, because it was unavailable, or its retrieval was aborted, or the project was stopped too soon.  \n\nDo you want to open it from the server?%27))window.location=%27https://yunzhuli.github.io/www/V-CDN/V-CDN.bib%27" tppabs="https://yunzhuli.github.io/www/V-CDN/V-CDN.bib" target="_blank">[BibTex]</a>
+			<br>
+			Covered by <a href="javascript:if(confirm(%27https://venturebeat.com/2020/07/02/ai-system-learns-to-model-how-fabrics-interact-by-watching-videos/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://venturebeat.com/2020/07/02/ai-system-learns-to-model-how-fabrics-interact-by-watching-videos/%27" tppabs="https://venturebeat.com/2020/07/02/ai-system-learns-to-model-how-fabrics-interact-by-watching-videos/" target="_blank">[VentureBeat]</a>
+
+			</div>
+		</div>
+	</div><br><br>
+
+	<!-- Video -->
+	<div class="container">
+		<h3 id="Video" style="padding-top: 80px; margin-top: -80px;">Video</h3>
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="../../../www.youtube.com/embed/hRsCt8xLn_8" tppabs="https://www.youtube.com/embed/hRsCt8xLn_8" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div><br><br><br>
+
+  <div class="container">
+		<h3 id="Model" style="padding-top: 80px; margin-top: -80px;">Model Overview</h3>
+		<br>
+	  <img class="img-responsive img-rounded" src="imgs/model.png" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/model.png" style="width:100%; height:100%" alt="">
+  </div><br><br>
+
+
+	<div class="container" style="padding-top: 20px; font-size: 20px">
+		<h3 id="Results" style="padding-top: 80px; margin-top: -80px;">Results<br></h3><br>
+
+		<div align="left">
+			<h4 style="padding-top: 80px; margin-top: -80px;"><b>1. Unsupervised Keypoint Detection</b></h4>
+			Here we show the qualitative results of the unsupervisely detected keypoints from our perception module.<br><br>
+			<div class="center">
+				<div class="row">
+					<div class="col-md-6">
+						<b>1.1 Multi-body Interaction</b><br>
+				    <img class="img-responsive img-rounded" src="imgs/unsupervised_keypoint_detection/3_Mass.gif" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/unsupervised_keypoint_detection/3_Mass.gif" style="width:32%; border:1px solid black" alt="">
+						<img class="img-responsive img-rounded" src="imgs/unsupervised_keypoint_detection/5_Mass.gif" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/unsupervised_keypoint_detection/5_Mass.gif" style="width:32%; border:1px solid black" alt="">
+						<img class="img-responsive img-rounded" src="imgs/unsupervised_keypoint_detection/7_Mass.gif" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/unsupervised_keypoint_detection/7_Mass.gif" style="width:32%; border:1px solid black" alt="">
+					</div>
+					<div class="col-md-6">
+						<b>1.2 Fabric Manipulation</b><br>
+							<img class="img-responsive img-rounded" src="imgs/unsupervised_keypoint_detection/shirt.gif" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/unsupervised_keypoint_detection/shirt.gif" style="width:32.6%; border:1px solid black" alt="">
+							<img class="img-responsive img-rounded" src="imgs/unsupervised_keypoint_detection/pants.gif" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/unsupervised_keypoint_detection/pants.gif" style="width:32.6%; border:1px solid black" alt="">
+							<img class="img-responsive img-rounded" src="imgs/unsupervised_keypoint_detection/towel.gif" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/unsupervised_keypoint_detection/towel.gif" style="width:32.6%; border:1px solid black" alt="">
+					</div>
+				</div>
+			</div><br><br>
+		</div>
+
+		<div align="left">
+			<h4 style="padding-top: 80px; margin-top: -80px;"><b>2. Discovered <em>Causal Summary Graph</em></b></h4>
+			Here we show the qualitative results of the discovered graph and the predicted future from our inference and dynamics modules.<br><br>
+		  <div class="center">
+				<b>2.1 Multi-body Interaction</b><br><br>
+				<div class="row">
+					<div class="col-md-4">
+						Example #1<br>
+						<img class="img-responsive img-rounded" src="imgs/discovered_causal_graph/5_Mass.gif" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/discovered_causal_graph/5_Mass.gif" style="width:100%; border:1px solid black" alt="">
+					</div>
+					<div class="col-md-4">
+						Example #2 <font color="firebrick">(less balls than training)</font><br>
+						<img class="img-responsive img-rounded" src="imgs/discovered_causal_graph/3_Mass.gif" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/discovered_causal_graph/3_Mass.gif" style="width:100%; border:1px solid black" alt="">
+					</div>
+					<div class="col-md-4">
+						Example #3 <font color="firebrick">(more balls than training)</font><br>
+						<img class="img-responsive img-rounded" src="imgs/discovered_causal_graph/7_Mass.gif" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/discovered_causal_graph/7_Mass.gif" style="width:100%; border:1px solid black" alt=""><br><br>
+					</div>
+				</div><br>
+
+				<b>2.2 Fabric Manipulation</b><br><br>
+				For the cloth environment, the keypoints on the fabrics act as a reduced-order representation of the original system, where we <b>do not</b> know the ground truth <em>causal summary graph</em>.<br>
+				Show as the following, the same inference module produces different causal graphs for different types of fabrics that reflect the underlying connectivity patterns, which illustrates the model’s ability to recognize the underlying dependency structure.
+				<br><br>
+
+				<b>Shirt</b><br>
+				<div class="row">
+					<div class="col-md-6">
+						Example #1<br>
+						<img class="img-responsive img-rounded" src="imgs/discovered_causal_graph/shirt_0.gif" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/discovered_causal_graph/shirt_0.gif" style="width:100%; border:1px solid black" alt="">
+					</div>
+					<div class="col-md-6">
+						Example #2<br>
+						<img class="img-responsive img-rounded" src="imgs/discovered_causal_graph/shirt_1.gif" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/discovered_causal_graph/shirt_1.gif" style="width:100%; border:1px solid black" alt=""><br><br>
+					</div>
+				</div>
+
+				<b>Pants</b><br>
+				<div class="row">
+					<div class="col-md-6">
+						Example #1<br>
+						<img class="img-responsive img-rounded" src="imgs/discovered_causal_graph/pants_0.gif" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/discovered_causal_graph/pants_0.gif" style="width:100%; border:1px solid black" alt="">
+					</div>
+					<div class="col-md-6">
+						Example #2<br>
+						<img class="img-responsive img-rounded" src="imgs/discovered_causal_graph/pants_1.gif" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/discovered_causal_graph/pants_1.gif" style="width:100%; border:1px solid black" alt=""><br><br>
+					</div>
+				</div>
+
+				<b>Towel</b><br>
+				<div class="row">
+					<div class="col-md-6">
+						Example #1<br>
+						<img class="img-responsive img-rounded" src="imgs/discovered_causal_graph/towel_0.gif" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/discovered_causal_graph/towel_0.gif" style="width:100%; border:1px solid black" alt="">
+					</div>
+					<div class="col-md-6">
+						Example #2<br>
+						<img class="img-responsive img-rounded" src="imgs/discovered_causal_graph/towel_1.gif" tppabs="https://yunzhuli.github.io/www/V-CDN/imgs/discovered_causal_graph/towel_1.gif" style="width:100%; border:1px solid black" alt="">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div><br>
+
+
+	<div class="container">
+		<hr>
+		<center>
+			<footer>
+				<p>&copy; MIT, University of Toronto and Nvidia 2020</p>
+			</footer>
+		</center>
+	</div>
+
+
+	<!-- Bootstrap core JavaScript -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="../../../code.jquery.com/jquery-3.2.1.slim.min.js" tppabs="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="../../../cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" tppabs="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="../../../maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" tppabs="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+
+<
+
