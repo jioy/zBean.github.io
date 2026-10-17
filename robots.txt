@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://jioy.github.io/sitemap.xml
